@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c2c1e07-66d4-4367-8a43-f9b4ce19213f">
+  <producedTypes>
+    <refType typeId="81da16d0-4d53-41f4-abda-553795ce7a34" valueTypeId="ed81a2c1-3aec-458a-b2fd-fbd7cab08e39"/>
+    <listType typeId="d45623b6-a7c8-4b37-aec4-2442fc09ab12" valueTypeId="e30f2284-0fe6-4e0d-bb2a-ca0339f3f27e"/>
+    <managerType typeId="bb18dd15-9272-4432-a189-2e17d155d2b9" valueTypeId="5bb771fa-194d-4c2d-92d1-e6e7d994e85b"/>
+  </producedTypes>
+  <name>мп_Маркетплейсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетплейсы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="108608f6-d0ee-46a8-b522-4aea0b280bc3">
+    <name>wildberries</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wildberries</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1e359c8-b1e6-4bad-b521-316a5ee8c81a">
+    <name>ozon</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ozon</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
