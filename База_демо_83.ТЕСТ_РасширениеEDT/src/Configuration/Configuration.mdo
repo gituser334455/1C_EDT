@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="80989452-28ca-41e0-95a6-1a731a2656ba">
+  <name>ТЕСТ_РасширениеEDT</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТЕСТ расширение EDT</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b9474a62-a978-407b-8c6e-5853455227b3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f7d4a2fb-2705-4f19-9869-466492359bbd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a28cd4a5-3989-4728-94ae-395766fb9084"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4db0d6e1-a3af-4fd5-af20-63b2a896de26"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="95165107-ad85-43de-ad71-793cae5e7de2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0bb2a1af-fa68-41d0-87f0-53171cb2735f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1c34be56-d30d-4537-aa5f-f7169cca57b7"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>мп_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.мп_ОсновнаяРоль</defaultRoles>
+  <version>1.0</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>ТЕСТ - расширение EDT</value>
+  </detailedInformation>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="49a5e0f4-f3cb-4123-acc0-190f897c8001" extendedConfigurationObject="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.мп_Маркетплейсы</subsystems>
+  <roles>Role.мп_ОсновнаяРоль</roles>
+  <catalogs>Catalog.мп_НастройкиИнтеграции</catalogs>
+  <enums>Enum.мп_Маркетплейсы</enums>
+</mdclass:Configuration>
