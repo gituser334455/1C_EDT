@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11aced80-406a-421c-80f6-9ef287230786">
+  <producedTypes>
+    <objectType typeId="2e9bf80e-6457-4a57-b892-6d8232f07e79" valueTypeId="63505465-27ba-43db-8ce1-f8e3b6c4794b"/>
+    <refType typeId="177f3c3a-6c5e-4d60-9692-f6c232b9fc07" valueTypeId="52bd5a4c-5923-4b5b-86c3-785e29098813"/>
+    <selectionType typeId="d9ddfdba-6546-4219-97c5-26d8d15c8f1a" valueTypeId="996b9948-3c28-4b1e-a5c0-f6b823eeb168"/>
+    <listType typeId="ee780c4c-a8da-4561-85bc-de89b6aa9d3c" valueTypeId="6da33b43-0982-4aa9-b7c5-3d9379ed715b"/>
+    <managerType typeId="97f9b22e-37de-46d6-90d2-7d402b64d1e4" valueTypeId="a1afd862-ffd2-469a-8675-9204f09a44e4"/>
+  </producedTypes>
+  <name>мп_НастройкиИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.мп_НастройкиИнтеграции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.мп_НастройкиИнтеграции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="de5aec46-c255-4d03-af68-2ece1b028c9e">
+    <name>Маркетплейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркетплейс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.мп_Маркетплейсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
