@@ -35,7 +35,7 @@
     <value>ТЕСТ - расширение EDT</value>
   </detailedInformation>
   <compatibilityMode>8.3.22</compatibilityMode>
-  <languages uuid="49a5e0f4-f3cb-4123-acc0-190f897c8001" extendedConfigurationObject="722e73f0-7fef-44a1-8861-7dfeefa20e32">
+  <languages uuid="49a5e0f4-f3cb-4123-acc0-190f897c8001" extendedConfigurationObject="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
